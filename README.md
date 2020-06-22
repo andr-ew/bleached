@@ -16,7 +16,7 @@ start with soldering all header pins to the underside of the teensy 3.2, referen
 
 ![pins image](pins.JPG)
 
-getting the surface mount pins in the right place is the trickiest part of this porject. start with those (one leg at a time), use tweezers, and test placement on the board with the through-hole headers.
+getting the surface mount pins in the right place is the trickiest part of this project. start with those (one leg at a time), use tweezers, and test placement on the board with the through-hole headers.
 
 the rest should be pretty easy, solder all the other headers to the teensy, solder the teensy to the board (on the top / stencil side of the board), and solder every leg of each of the pots. load firmware & test once everything is soldered (although, at this point there's kinda no going back). the firmware is an arduino project for use with [teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
 
