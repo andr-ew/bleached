@@ -29,6 +29,3 @@ a2) you should have a 3-pin header, which should be used with the 3 middle pins.
 
 q2) i get an error compiling the firmware, `'usbMIDI' was not declared in this scope`.
 a2) set the USB type to 'Serial + MIDI' on the Tools -> USB Type menu.
-
-q3) the screws in the BOM don't fit the spacers.
-a3) you can use M2.5 screws.
