@@ -1,7 +1,7 @@
 ## bleached
 small/inexpensive 7-knob teensy midi controller. 
 
-many thanks to brian crabtree for sending me the original design & helping me add the teensy !!
+many thanks to [brian crabtree](https://vimeo.com/134631071) for sending me the original design & helping me add the teensy !!
 
 ![product image](pic.JPG)
 
