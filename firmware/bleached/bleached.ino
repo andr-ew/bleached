@@ -88,7 +88,7 @@ uint16_t loop_count = 0;
 
 void setup() {
   // serial monitoring for debugging
-  Serial.begin(38400);
+  // Serial.begin(38400);
 
   // potentiometers
   analogReadResolution(POT_BIT_RES);
@@ -105,6 +105,10 @@ void loop() {
       prev_pot_val[i] = pot_val;
     }
   }
+
+  // MIDI Controllers should discard incoming MIDI messages.
+  // (reference: https://www.pjrc.com/teensy/td_midi.html)
+  while (usbMIDI.read()) { ;; }
 
   // Periodically send MIDI CC for every knob so that the receiving end matches the knobs
   // even when changing pure data patches.
